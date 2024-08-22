@@ -6,7 +6,7 @@ const What = () => {
     return (
         <div className='bg-slate-900 py-[50px]'>
             <Container>
-                <div className="font-prot font-bold text-[36px] text-center">
+                <div className="font-prot font-bold text-[36px] w-[70%] mx-auto text-center">
                     <h2 className='font-prot font-bold text-[36px] text-slate-400 '>What I do</h2>
                     <h3 className=' font-prot font-bold text-[20px] text-slate-400  '>I have more than 2 years experience building software for clients all over the world. Below is a quick overview of my main technical skill sets and technologies i use.
                         Want to find out more about my experience? Check out my online resume and project .</h3>
@@ -35,16 +35,10 @@ const What = () => {
                                 <h3 className=' font-prot font-bold text-[20px] text-slate-400 '>2023 - 2024</h3>
                                 <h3 className=' font-prot font-bold text-[20px] text-slate-400 '>Internship</h3>
                             </div>
-                            <div className="py-[20px]">
-                                <h2 className=' font-prot font-bold text-[24px] text-slate-400 '>Frontend Devlopment With React</h2>
-                                <h3 className=' font-prot font-bold text-[22px] text-slate-400 '>Creative iT institute</h3>
-                                <h3 className=' font-prot font-bold text-[20px] text-slate-400 '>2023 - 2024</h3>
-                                <h3 className=' font-prot font-bold text-[20px] text-slate-400 '>Internship</h3>
-                            </div>
                         </div>
                     </div>
                 </div>
-                <div className=" lg:pl-[45%] pl-[90px] translate-[-50%] ">
+                <div className=" w-[300px] mx-auto ">
                     <div className="border-2 border-slate-400 py-[10px] px-[15px] text-slate-400 hover:text-[#222] hover:bg-sky-500  duration-300 inline-block">
                         <div className="flex gap-x-2 items-center ">
                             <CiSaveDown2 />

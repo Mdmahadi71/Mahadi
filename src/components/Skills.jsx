@@ -8,7 +8,7 @@ const Skills = () => {
 
   const [html, setHtml] = useState(0);
   const [css, setCss] = useState(0);
-  const [scss, setScss] = useState(0);
+  const [Bootstrap, setBootstrap] = useState(0);
   const [java, setJava] = useState(0);
   const [react, setReact] = useState(0);
   const [tailwind, setTailwind] = useState(0);
@@ -21,8 +21,8 @@ const Skills = () => {
       if (css < 92) {
         setCss(css + 1);
       }
-      if (scss < 65) {
-        setScss(scss + 1);
+      if (Bootstrap < 65) {
+        setBootstrap(Bootstrap + 1);
       }
       if (java < 55) {
         setJava(java + 1);
@@ -63,8 +63,8 @@ const Skills = () => {
             </div>
             <div className="lg:py-0 py-[20px]">
               <div data-aos='fade-up' className='w-[82%]'>
-                <h2 className='text-center lg:text-[24px] text-[18px] text-slate-400  font-prot font-semibold lg:pb-[30px] pb-[20px]'>Scss</h2>
-                <CircularProgressbar className='lg:w-[50%] w-[90%] mx-auto' value={scss} text={`${scss}%`} />
+                <h2 className='text-center lg:text-[24px] text-[18px] text-slate-400  font-prot font-semibold lg:pb-[30px] pb-[20px]'>Bootstrap</h2>
+                <CircularProgressbar className='lg:w-[50%] w-[90%] mx-auto' value={Bootstrap} text={`${Bootstrap}%`} />
               </div>
             </div>
           </div>

@@ -11,9 +11,9 @@ const Navbar = () => {
     }
 
     return (
-        <div className='py-[20px] bg-slate-400'>
+        <div className='py-[15px] text-center bg-slate-400'>
             <Container>
-                <Flex className={`justify-between`}>
+                <Flex className={`justify-between items-center`}>
                     <div className="w-[50%]">
                         <h2 className='font-prot font-bold text-[18px] text-[#262626]'>MA<samp className='font-prot font-bold text-[22px] text-white'> HA</samp>DI</h2>
                     </div>

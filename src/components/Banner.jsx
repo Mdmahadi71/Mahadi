@@ -35,7 +35,8 @@ const Banner = () => {
                                     />
                                 </span>
                             </h1>
-                            <h4 className='font-prot font-bold text-[18px] text-slate-400'>I, m a designer & developer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user.</h4>
+                            <h4 className='font-prot font-bold text-[18px] text-slate-400'>I, m a designer & developer with a passion for web design.
+                                 I enjoy developing simple, clean and slick websites that provide real value to the end user.</h4>
                             <div className="lg:flex gap-4 py-[20px]">
                                 <div className="">
                                     <div className=" border-2  border-slate-400 px-[15px] py-[10px] hover:bg-sky-500  duration-300 inline-block ">
@@ -57,8 +58,8 @@ const Banner = () => {
                         </div>
                     </div>
                     <div className="lg:w-[50%]">
-                        <div className=" lg:pl-[300px]">
-                            <img src={mahadi} alt="" />
+                        <div className=" w-[300px] h-[300px]  mx-auto">
+                            <img src={mahadi} className=' w-full' alt="" />
                         </div>
                     </div>
                 </div>
