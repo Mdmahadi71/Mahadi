@@ -19,8 +19,8 @@ const Project = () => {
 
                     <div className="lg:w-[32%] lg:py-0 py-3" data-aos="fade-up" data-aos-anchor-placement="top-center">
                         <a href="https://grand-taiyaki-cd06aa.netlify.app/">
-                            <div className=" bg-slate-500 relative group overflow-hidden rounded-[20px] shadow-stone-600">
-                                <div className=" w-100%] h-[200px]  items-center" >
+                            <div className=" bg-slate-500 relative group overflow-hidden rounded-[20px] hover:shadow-2xl hover:shadow-cyan-400 duration-200">
+                                <div className=" w-100% h-[200px]  items-center" >
                                     <img src={orebi} className=' w-full h-full' alt="" />
                                 </div>
                                 <div className=" text-center py-4   absolute bottom-[-200px] items-center group-hover:bottom-[0] group-hover-top-[10px] duration-300 bg-slate-500">
@@ -36,7 +36,7 @@ const Project = () => {
 
                     <div className="lg:w-[32%] lg:py-0 py-3" data-aos="fade-up" data-aos-anchor-placement="top-center">
                         <a href="https://hekto-projectmahadi.netlify.app/" >
-                            <div className=" bg-slate-500 relative group overflow-hidden rounded-[20px] shadow-stone-600">
+                            <div className=" bg-slate-500 relative group overflow-hidden rounded-[20px] hover:shadow-2xl hover:shadow-cyan-400 duration-200">
                                 <div className=" w-[100%] h-[200px]">
                                     <img src={hekto} className=' w-full  h-full' alt="" />
                                 </div>
@@ -53,7 +53,7 @@ const Project = () => {
 
                     <div className="lg:w-[32%] lg:py-0 py-3 " data-aos="fade-up" data-aos-anchor-placement="top-center" >
                         <a href="https://mahadireact71.netlify.app/" >
-                            <div className="  bg-slate-500 relative group overflow-hidden rounded-[20px] shadow-stone-600">
+                            <div className="  bg-slate-500 relative group overflow-hidden rounded-[20px] hover:shadow-2xl hover:shadow-cyan-400 duration-200">
                                 <div className=" w-[100%] h-[200px] rounded-[20px]">
                                     <img src={project1} className=' w-full  h-full' alt="" />
                                 </div>
@@ -74,7 +74,7 @@ const Project = () => {
 
                     <div className="lg:w-[32%] lg:py-0 py-3" data-aos="fade-up" data-aos-anchor-placement="top-center">
                         <a href="https://bespoke-belekoy-f26052.netlify.app">
-                            <div className=" bg-slate-500 relative group overflow-hidden rounded-[20px] shadow-stone-600">
+                            <div className=" bg-slate-500 relative group overflow-hidden rounded-[20px] hover:shadow-2xl hover:shadow-cyan-400 duration-200">
                                 <div className=" w-100%] h-[200px]  items-center" >
                                     <img src={project3} className=' w-full h-full' alt="" />
                                 </div>
@@ -91,7 +91,7 @@ const Project = () => {
 
                     <div className="lg:w-[32%] lg:py-0 py-3" data-aos="fade-up" data-aos-anchor-placement="top-center">
                         <a href="https://react-figma71.netlify.app/" >
-                            <div className=" bg-slate-500 relative group overflow-hidden rounded-[20px] shadow-stone-600">
+                            <div className=" bg-slate-500 relative group overflow-hidden rounded-[20px] hover:shadow-2xl hover:shadow-cyan-400 duration-200">
                                 <div className=" w-[100%] h-[200px]">
                                     <img src={projectt} className=' w-full  h-full' alt="" />
                                 </div>
@@ -109,7 +109,7 @@ const Project = () => {
 
                     <div className="lg:w-[32%] lg:py-0 py-3 " data-aos="fade-up" data-aos-anchor-placement="top-center" >
                         <a href="https://todo-main-iota.vercel.app/" >
-                            <div className="  bg-slate-500 relative group overflow-hidden rounded-[20px] shadow-stone-600">
+                            <div className="  bg-slate-500 relative group overflow-hidden rounded-[20px] hover:shadow-2xl hover:shadow-cyan-400 duration-200">
                                 <div className=" w-[100%] h-[200px] rounded-[20px]">
                                     <img src={Login} className=' w-full  h-full' alt="" />
                                 </div>
@@ -129,12 +129,14 @@ const Project = () => {
 
 
                 <div className=" text-center py-3">
+                    <a href="https://github.com/Mdmahadi71" target='blank'>
                 <div className=" py-[10px] px-[15px] bg-slate-400 hover:text-[#222] hover:bg-sky-500  duration-300 inline-block rounded-[10px]">
                         <div className="flex gap-x-2 items-center ">
                             <FaGithub />
                             <a className=' font-prot font-medium text-[20px]  ' href="https://github.com/Mdmahadi71" target='blank'>Github</a>
                         </div>
                     </div>
+                    </a>
                 </div>
             </Container>
         </div>

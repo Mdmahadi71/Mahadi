@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className='bg-slate-900  py-[100px]'>
       <Container>
-        <div className="bg-slate-700 w-[700px] mx-auto text-center py-[50px]">
+        <div className="bg-slate-700 lg:w-[700px] mx-auto text-center py-[50px] hover:shadow-2xl hover:shadow-slate-700 duration-300 rounded-[15px]">
           <div className=" items-center text-center">
             <h3 className=' font-prot font-bold text-[48px] text-slate-400 '>About Me</h3>
             <h4 className='font-prot font-bold text-[18px] text-slate-400'>I, m a designer & developer with a passion for web design.
@@ -18,7 +18,7 @@ const About = () => {
             </div>
             <div className=" lg:w-[30%]">
               <h2 className='font-prot font-bold text-[18px] text-slate-400'>Email:</h2>
-              <h3 className='font-prot font-bold text-[20px] text-slate-400'>habibalmasud79@gmail.com</h3>
+              <h3 className='font-prot font-bold text-[20px] text-slate-400'>mahadialmasud2@gmail.com</h3>
             </div>
             <div className="lg:w-[30%]">
               <h2 className='font-prot font-bold text-[18px] text-slate-400'>From:</h2>

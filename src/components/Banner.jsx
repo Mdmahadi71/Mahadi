@@ -4,7 +4,7 @@ import Container from './Container'
 import Flex from './Flex'
 import { CiSaveDown2 } from "react-icons/ci";
 import { FaPhoneAlt } from "react-icons/fa";
-import mahadi from '../assets/mahadi3.png'
+import mahadi from '../assets/Mehedi.jpg'
 
 const Banner = () => {
     const handleDone = () => {
@@ -39,27 +39,31 @@ const Banner = () => {
                                  I enjoy developing simple, clean and slick websites that provide real value to the end user.</h4>
                             <div className="lg:flex gap-4 py-[20px]">
                                 <div className="">
-                                    <div className=" border-2  border-slate-400 px-[15px] py-[10px] hover:bg-sky-500  duration-300 inline-block ">
-                                        <div className="flex gap-[10px] items-center  font-prot font-medium text-[20px] text-slate-400 hover:text-[#222] duration-300">
+                                    <a href="">
+                                    <div className=" border-2  border-slate-400 px-[15px] py-[10px] hover:bg-sky-500 cursor-pointer inline-block
+                                     text-slate-400 hover:text-[#222] duration-300 rounded-[10px]">
+                                        <div className="flex gap-[10px] items-center  font-prot font-medium text-[20px] ">
                                             <CiSaveDown2 className='' />
-                                            <a className='' href="#">Download CV</a>
+                                            <a className=''>Download CV</a>
                                         </div>
                                     </div>
+                                    </a>
                                 </div>
                                 <div className=" lg:py-0 py-[30px]">
-                                    <div className=" border-2  border-slate-400 p-[10px] hover:bg-sky-500  duration-300 inline-block ">
-                                        <div className="flex gap-[10px] items-center font-prot font-medium text-[20px] text-slate-400 hover:text-[#222] duration-300">
+                                    <div className=" border-2  border-slate-400 p-[10px] hover:bg-sky-500  
+                                    duration-300 text-slate-400 hover:text-[#222] inline-block cursor-pointer rounded-[10px]">
+                                        <div className="flex gap-[10px] items-center font-prot font-medium text-[20px]  duration-300 ">
                                             < FaPhoneAlt className=' ' />
-                                            <a className='' href="#">Contact</a>
+                                            <a className=' '>Contact</a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className="lg:w-[50%]">
-                        <div className=" w-[300px] h-[300px]  mx-auto">
-                            <img src={mahadi} className=' w-full' alt="" />
+                    <div className="lg:w-[50%]  ">
+                        <div className=" w-[300px] h-[300px] rounded-[50%]  mx-auto ">
+                            <img src={mahadi} className=' w-[300px] h-[300px] border-[4px] border-cyan-400 shadow-2xl shadow-cyan-500 rounded-[50%]' alt="" />
                         </div>
                     </div>
                 </div>
