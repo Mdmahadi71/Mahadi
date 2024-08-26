@@ -25,8 +25,8 @@ const Navbar = () => {
                             <li className=' font-prot font-bold text-[18px] text-[#262626] lg:py-0 py-3 hover:text-white duration-300'>
                                 <a href="#">Blog</a>
                             </li>
-                            <li className=' font-prot font-bold text-[18px] text-[#262626] lg:py-0 py-3 '>
-                                <a className='border border-[#222] py-2 px-4 hover:bg-sky-500 duration-300 ' href="#">Hire Me</a>
+                            <li className=' font-prot font-bold text-[18px] text-[#262626] lg:py-0 py-3 hover:shadow-xl hover:shadow-cyan-400 duration-300'>
+                                <a className='border border-[#222] py-2 px-4 hover:bg-cyan-400 duration-300 ' >Hire Me</a>
                             </li>
                         </ul>
                     </div>

@@ -9,7 +9,7 @@ const Skills = () => {
   const [html, setHtml] = useState(0);
   const [css, setCss] = useState(0);
   const [Bootstrap, setBootstrap] = useState(0);
-  const [java, setJava] = useState(0);
+  const [javascript, setjavascript] = useState(0);
   const [react, setReact] = useState(0);
   const [tailwind, setTailwind] = useState(0);
 
@@ -21,11 +21,11 @@ const Skills = () => {
       if (css < 92) {
         setCss(css + 1);
       }
-      if (Bootstrap < 65) {
+      if (Bootstrap < 85) {
         setBootstrap(Bootstrap + 1);
       }
-      if (java < 55) {
-        setJava(java + 1);
+      if (javascript < 65) {
+        setjavascript(javascript + 1);
       }
       if (react < 78) {
         setReact(react + 1);
@@ -71,8 +71,8 @@ const Skills = () => {
           <div className="lg:flex justify-between">
             <div className="lg:py-0 py-[20px]">
               <div data-aos='fade-up' className='w-[82%]'>
-                <h2 className='text-center lg:text-[24px] text-[18px] text-slate-400 font-prot font-semibold lg:pb-[30px] pb-[20px]'>Java</h2>
-                <CircularProgressbar className='lg:w-[50%] w-[90%] mx-auto' value={java} text={`${java}%`} />
+                <h2 className='text-center lg:text-[24px] text-[18px] text-slate-400 font-prot font-semibold lg:pb-[30px] pb-[20px]'>Javascript</h2>
+                <CircularProgressbar className='lg:w-[50%] w-[90%] mx-auto' value={javascript} text={`${javascript}%`} />
               </div>
             </div>
             <div className="lg:py-0 py-[20px]">

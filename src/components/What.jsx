@@ -21,7 +21,7 @@ const What = () => {
                             <p className=' font-prot font-medium text-[20px] text-stone-400'>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                  Natus, blanditiis dolor pariatur adipisci nemo totam,
                                  tempora ipsam excepturi harum ullam debitis quae eius quidem quam, nam fuga necessitatibus enim nulla.</p>
-                            <div className=" px-[15px] py-[8px] rounded-[5px] inline-block cursor-pointer bg-cyan-400 text-black hover:bg-white  duration-200 my-[20px]">
+                            <div className=" px-[15px] py-[8px] rounded-[5px] inline-block cursor-pointer bg-cyan-400 text-black hover:bg-white  duration-200 my-[20px] hover:shadow-xl hover:shadow-white">
                                 <a className=' font-prot font-medium text-[20px] '>Read More</a>
                             </div>
                         </div>
@@ -36,7 +36,7 @@ const What = () => {
                             <p className=' font-prot font-medium text-[20px] text-stone-400'>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                  Natus, blanditiis dolor pariatur adipisci nemo totam,
                                  tempora ipsam excepturi harum ullam debitis quae eius quidem quam, nam fuga necessitatibus enim nulla.</p>
-                            <div className=" px-[15px] py-[8px] rounded-[5px] inline-block cursor-pointer bg-cyan-400 text-black hover:bg-white  duration-300 my-[20px]">
+                            <div className=" px-[15px] py-[8px] rounded-[5px] inline-block cursor-pointer bg-cyan-400 text-black hover:bg-white  duration-300 my-[20px] hover:shadow-xl hover:shadow-white">
                                 <a className=' font-prot font-medium text-[20px] '>Read More</a>
                             </div>
                         </div>
@@ -51,7 +51,7 @@ const What = () => {
                             <p className=' font-prot font-medium text-[20px] text-stone-400'>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                  Natus, blanditiis dolor pariatur adipisci nemo totam,
                                  tempora ipsam excepturi harum ullam debitis quae eius quidem quam, nam fuga necessitatibus enim nulla.</p>
-                            <div className=" px-[15px] py-[8px] rounded-[5px] inline-block cursor-pointer bg-cyan-400 text-black hover:bg-white duration-300 my-[20px] ">
+                            <div className=" px-[15px] py-[8px] rounded-[5px] inline-block cursor-pointer bg-cyan-400 text-black hover:bg-white duration-300 my-[20px] hover:shadow-xl hover:shadow-white ">
                                 <a className=' font-prot font-medium text-[20px] '>Read More</a>
                             </div>
                         </div>

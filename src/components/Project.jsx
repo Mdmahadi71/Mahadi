@@ -13,7 +13,7 @@ const Project = () => {
         <div className=' bg-slate-900  py-[20px]'>
             <Container>
                 <div className=" text-center py-[40px]">
-                    <h3 className=' font-prot font-bold text-[48px] text-slate-400 '>My Projects</h3>
+                    <h3 className=' font-prot font-bold text-[48px] text-slate-400 '>My <span className=' text-cyan-400'>Projects</span></h3>
                 </div>
                 <div className="lg:flex justify-between">
 
@@ -130,7 +130,7 @@ const Project = () => {
 
                 <div className=" text-center py-3">
                     <a href="https://github.com/Mdmahadi71" target='blank'>
-                <div className=" py-[10px] px-[15px] bg-slate-400 hover:text-[#222] hover:bg-sky-500  duration-300 inline-block rounded-[10px]">
+                <div className=" py-[10px] px-[15px] bg-slate-400 hover:text-[#222] hover:bg-sky-500  duration-300 inline-block rounded-[10px] hover:shadow-xl hover:shadow-cyan-400">
                         <div className="flex gap-x-2 items-center ">
                             <FaGithub />
                             <a className=' font-prot font-medium text-[20px]  ' href="https://github.com/Mdmahadi71" target='blank'>Github</a>

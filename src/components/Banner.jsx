@@ -52,7 +52,7 @@ const Banner = () => {
                                 <div className=" lg:py-0 py-[30px]">
                                     <div className=" border-2  border-slate-400 p-[10px] hover:bg-sky-500  
                                     duration-300 text-slate-400 hover:text-[#222] inline-block cursor-pointer rounded-[10px]">
-                                        <div className="flex gap-[10px] items-center font-prot font-medium text-[20px]  duration-300 ">
+                                        <div className="flex gap-[10px] items-center font-prot font-medium text-[20px]  ">
                                             < FaPhoneAlt className=' ' />
                                             <a className=' '>Contact</a>
                                         </div>
