@@ -1,43 +1,14 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import Container from './Container'
-import { CircularProgressbar } from 'react-circular-progressbar';
-import 'react-circular-progressbar/dist/styles.css';
+import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact } from "react-icons/fa";
 
 
 const Skills = () => {
 
-  const [html, setHtml] = useState(0);
-  const [css, setCss] = useState(0);
-  const [Bootstrap, setBootstrap] = useState(0);
-  const [javascript, setjavascript] = useState(0);
-  const [react, setReact] = useState(0);
-  const [tailwind, setTailwind] = useState(0);
 
-  useEffect(() => {
-    setTimeout(() => {
-      if (html < 92) {
-        setHtml(html + 1);
-      }
-      if (css < 92) {
-        setCss(css + 1);
-      }
-      if (Bootstrap < 85) {
-        setBootstrap(Bootstrap + 1);
-      }
-      if (javascript < 65) {
-        setjavascript(javascript + 1);
-      }
-      if (react < 78) {
-        setReact(react + 1);
-      }
-      if (tailwind < 80) {
-        setTailwind(tailwind + 1);
-      }
-    }, 2);
-  },);
 
   return (
-    <div className='bg-slate-900 lg:py-[80px]'>
+    <div id='Skills' className='bg-slate-900 lg:py-[80px]'>
       <Container>
         <div className="">
           <div className=" text-center ">
@@ -46,50 +17,33 @@ const Skills = () => {
               These are some of the major languages, technologies, tools and platforms I have worked with:</h3>
           </div>
         </div>
-
-        <div className="flex justify-between py-[50px]">
-          <div className="lg:flex justify-between">
-            <div className="lg:py-0 py-[20px]">
-              <div data-aos='fade-up' className='w-[82%]'>
-                <h2 className='text-center lg:text-[24px] text-[16px] text-slate-400 font-prot font-semibold lg:pb-[30px] pb-[20px]'>HTML</h2>
-                <CircularProgressbar className='lg:w-[50%] w-[90%] mx-auto' value={html} text={`${html}%`} />
-              </div>
+        <div className=" flex justify-between py-[40px]">
+          <div className="">
+            <div className=" flex justify-center items-center h-[100px] w-[100px] bg-[#E54F26] rounded-full hover:shadow-[0_3px_10px_rgb(229,79,38)] duration-300  ">
+              <FaHtml5 className=' text-white text-[35px]' />
             </div>
-            <div className=" lg:py-0 py-[20px]">
-              <div data-aos='fade-up' className='w-[82%]'>
-                <h2 className='text-center lg:text-[24px] text-[18px] text-slate-400 font-prot font-semibold lg:pb-[30px] pb-[20px]'>Css</h2>
-                <CircularProgressbar className='lg:w-[50%] w-[90%] mx-auto' value={css} text={`${css}%`} />
-              </div>
-            </div>
-            <div className="lg:py-0 py-[20px]">
-              <div data-aos='fade-up' className='w-[82%]'>
-                <h2 className='text-center lg:text-[24px] text-[18px] text-slate-400  font-prot font-semibold lg:pb-[30px] pb-[20px]'>Bootstrap</h2>
-                <CircularProgressbar className='lg:w-[50%] w-[90%] mx-auto' value={Bootstrap} text={`${Bootstrap}%`} />
-              </div>
-            </div>
+            <h2 className=' font-prot font-semibold  text-[35px] text-[#E54F26]'>HTML</h2>
           </div>
-          <div className="lg:flex justify-between">
-            <div className="lg:py-0 py-[20px]">
-              <div data-aos='fade-up' className='w-[82%]'>
-                <h2 className='text-center lg:text-[24px] text-[18px] text-slate-400 font-prot font-semibold lg:pb-[30px] pb-[20px]'>Javascript</h2>
-                <CircularProgressbar className='lg:w-[50%] w-[90%] mx-auto' value={javascript} text={`${javascript}%`} />
-              </div>
+          <div className="">
+            <div className=" flex justify-center items-center h-[100px] w-[100px] bg-[#264de4] rounded-full hover:shadow-[#264fe4f3] duration-300  ">
+              <FaCss3Alt className=' text-white text-[35px]' />
             </div>
-            <div className="lg:py-0 py-[20px]">
-              <div data-aos='fade-up' className='w-[82%]'>
-                <h2 className='text-center lg:text-[24px] text-[18px] text-slate-400 font-prot font-semibold lg:pb-[30px] pb-[20px]'>React</h2>
-                <CircularProgressbar className='lg:w-[50%] w-[90%] mx-auto' value={react} text={`${react}%`} />
-              </div>
+            <h2 className=' font-prot font-semibold  text-[35px] text-[#264de4] pl-[15px]'>CSS</h2>
+          </div>
+          <div className="">
+            <div className=" flex justify-center items-center h-[100px] w-[100px] bg-[#f0db4f] rounded-full hover:shadow-[#f0db4f] duration-300  ">
+              <FaJsSquare className=' text-white text-[35px]' />
             </div>
-            <div className="lg:py-0 py-[20px]">
-              <div data-aos='fade-up' className='w-[82%]'>
-                <h2 className='text-center lg:text-[24px] text-[18px] text-slate-400 font-prot font-semibold lg:pb-[30px] pb-[20px]'>Tailwind Css</h2>
-                <CircularProgressbar className='lg:w-[50%] w-[90%] mx-auto' value={tailwind} text={`${tailwind}%`} />
-              </div>
+            <h2 className=' font-prot font-semibold  text-[35px] text-[#f0db4f] pl-[30px]'>JS</h2>
+          </div>
+          <div className="">
+            <div className=" flex justify-center items-center h-[100px] w-[100px] bg-[#61dbfb] rounded-full hover:shadow-[#61dbfb] duration-300  ">
+              <FaReact className=' text-white text-[35px]' />
             </div>
-
+            <h2 className=' font-prot font-semibold  text-[35px] text-[#61dbfb]'>REACT</h2>
           </div>
         </div>
+
       </Container>
     </div>
   )

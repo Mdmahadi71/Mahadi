@@ -10,7 +10,7 @@ import Login from '../assets/login.png'
 
 const Project = () => {
     return (
-        <div className=' bg-slate-900  py-[20px]'>
+        <div id='Project' className=' bg-slate-900  py-[20px]'>
             <Container>
                 <div className=" text-center py-[40px]">
                     <h3 className=' font-prot font-bold text-[48px] text-slate-400 '>My <span className=' text-cyan-400'>Projects</span></h3>

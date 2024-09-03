@@ -6,7 +6,7 @@ import { RiBracesLine } from "react-icons/ri";
 
 const What = () => {
     return (
-        <div className=' bg-slate-900  py-[50px]'>
+        <div id='Services' className=' bg-slate-900  py-[50px]'>
             <Container>
                 <div className="font-prot font-bold text-[36px] w-[70%] mx-auto text-center my-[30px]">
                     <h2 className='font-prot font-bold text-[36px] text-slate-400 '>My <span className=' text-cyan-400'>Services</span></h2> 

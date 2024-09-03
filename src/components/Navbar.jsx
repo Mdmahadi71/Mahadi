@@ -11,7 +11,7 @@ const Navbar = () => {
     }
 
     return (
-        <div className='py-[15px] text-center bg-slate-400'>
+        <div className='fixed top-0 left-0 w-full py-[15px] text-center bg-slate-400 z-50'>
             <Container>
                 <Flex className={`justify-between items-center`}>
                     <div className="w-[50%]">
@@ -19,14 +19,23 @@ const Navbar = () => {
                     </div>
                     <div className={`w-[50%] items-center absolute lg:static duration-300 ${show == true ? ' top-[70px] left-0 bg-slate-400 w-full' : 'top-[70px] left-[-400px] w-full'}`}>
                         <ul className='lg:flex gap-x-[50px] lg:text-start text-center lg:py-0 py-3 '>
-                            <li className=' font-prot font-bold text-[18px] text-[#262626] lg:py-0 py-3 hover:text-white duration-300'>
-                                <a href="#">Portfolio</a>
+                            <li className=' font-prot font-bold text-[18px] text-[#262626] lg:py-0 py-3 hover:text-white duration-300 scroll-smooth'>
+                                <a href="#Home">Home</a>
                             </li>
-                            <li className=' font-prot font-bold text-[18px] text-[#262626] lg:py-0 py-3 hover:text-white duration-300'>
-                                <a href="#">Blog</a>
+                            <li className=' font-prot font-bold text-[18px] text-[#262626] lg:py-0 py-3 hover:text-white duration-300 scroll-smooth'>
+                                <a href="#About">About</a>
                             </li>
-                            <li className=' font-prot font-bold text-[18px] text-[#262626] lg:py-0 py-3 hover:shadow-xl hover:shadow-cyan-400 duration-300'>
-                                <a className='border border-[#222] py-2 px-4 hover:bg-cyan-400 duration-300 ' >Hire Me</a>
+                            <li className=' font-prot font-bold text-[18px] text-[#262626] lg:py-0 py-3 hover:text-white duration-300 scroll-smooth' >
+                                <a href="#Services">Services</a>
+                            </li>
+                            <li className=' font-prot font-bold text-[18px] text-[#262626] lg:py-0 py-3 hover:text-white duration-300 scroll-smooth'>
+                                <a href="#Skills">Skills</a>
+                            </li>
+                            <li className=' font-prot font-bold text-[18px] text-[#262626] lg:py-0 py-3 hover:text-white duration-300 scroll-smooth'>
+                                <a href="#Project">Projects</a>
+                            </li>
+                            <li className=' font-prot font-bold text-[18px] text-[#262626] lg:py-0 py-3 hover:text-white duration-300 scroll-smooth'>
+                                <a href="#Connect">Connect</a>
                             </li>
                         </ul>
                     </div>

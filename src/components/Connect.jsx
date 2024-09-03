@@ -2,10 +2,12 @@ import React from 'react'
 import Container from './Container'
 import { FaFacebookSquare, FaInstagramSquare, FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
+import ScrollToTop from "react-scroll-to-top";
 
 const Connect = () => {
   return (
-    <div className=' bg-slate-900  py-[100px]'>
+    <div id='Connect' className=' bg-slate-900  py-[100px]'>
+  
       <Container>
         <div className="lg:flex justify-between">
           <div className="lg:w-[50%]">
@@ -36,6 +38,7 @@ const Connect = () => {
           </div>
         </div>
       </Container>
+      <ScrollToTop color='#38bdf8' top='500' smooth />
     </div>
   )
 }
