@@ -24,7 +24,7 @@ const BackTotop = () => {
     <div>
         {BackTo &&
       <Container>
-        <button className=' w-[50px] h-[50px] text-[50px] bottom-[50px] right-[40px] fixed bg-sky-500 rounded-[5px]' onClick={setUp}><IoIosArrowUp/></button>
+        <button className=' w-[50px] h-[50px] text-[50px] bottom-[50px] lg:right-[40px] right-[10px] fixed bg-sky-500 rounded-[5px]' onClick={setUp}><IoIosArrowUp/></button>
       </Container>
       }
     </div>
