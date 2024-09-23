@@ -3,6 +3,7 @@ import Container from './Container'
 import { FaFacebookSquare, FaInstagramSquare, FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
 import ScrollToTop from "react-scroll-to-top";
+import BackTotop from './BackTotop';
 
 const Connect = () => {
   return (
@@ -38,7 +39,7 @@ const Connect = () => {
           </div>
         </div>
       </Container>
-      <ScrollToTop color='#38bdf8' top='500' smooth />
+      <BackTotop/>
     </div>
   )
 }
