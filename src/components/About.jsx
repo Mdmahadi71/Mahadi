@@ -11,7 +11,7 @@ const About = () => {
         <div className=" text-center">
           <h3 className=' font-prot font-bold text-[48px] text-sky-400 bg-slate-700 border-b-[4px] border-sky-400 inline-block'>About Me</h3>
         </div>
-       <div className=" flex justify-between items-center py-[20px]">
+       <div className=" lg:flex justify-between items-center py-[20px]">
        <div className="bg-slate-700 lg:w-[50%] text-center  p-[50px] hover:shadow-2xl hover:shadow-slate-700 duration-300 rounded-[15px]">
           <div className=" items-center text-center">
 
@@ -21,8 +21,8 @@ const About = () => {
               of the major <span className='text-sky-400'>HTML </span>,<span className='text-sky-400'>CSS</span> ,<span className='text-sky-400'>JS </span>, <span className='text-sky-400'>REACT</span>  and etc  tools and platforms I have worked with .</h4>
           </div>
         </div>
-        <div className=" w-[40%]">
-          <div className=" w-[300px] h-[400px] ">
+        <div className=" lg:w-[40%]">
+          <div className=" lg:w-[300px] lg:h-[400px] ">
             <img src={aboutImg} className=' w-full h-full rounded-[20px]'  alt="" />
           </div>
         </div>
