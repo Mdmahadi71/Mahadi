@@ -69,7 +69,7 @@ const Banner = () => {
                                 <h1 className='py-[5px] px-[8px] bg-sky-500 inline-block rounded-[5px] ml-[10px] font-prot font-medium text-[18px] text-black'>REACT</h1>
                             </div>
                             <div className=" text-center ">
-                                <a target='blank' href="https://drive.google.com/file/d/1mFSz3yzOokGIalBwcH_5xGfd6xVs-REM/view?usp=sharing">
+                                <a target='blank' href="https://drive.google.com/file/d/1QE2HaB2WUKzSDx2ViF647PRvCvRQB11i/view?usp=drive_link">
                                     <div className=" border-[1px]  border-slate-400 px-[15px] py-[10px] hover:bg-sky-500 cursor-pointer inline-block
                                      text-slate-400 hover:text-[#222] duration-300 rounded-[10px]">
                                         <div className="flex gap-[10px] items-center  font-prot font-medium text-[20px] ">
